@@ -12,7 +12,7 @@
 
 **e.g.** afl-fuzz.exe -i input -o out -f input.txt -t 5000+ --  -coverage_module notepad.exe -cpukill -- notepad.exe @@
 
-- Options for AFL:
+- *Options for AFL*:
 
   -i dir        - input directory with test cases
 
@@ -23,7 +23,7 @@
   -f file       - location read by the fuzzed program
 
 
-- Options for Pin:
+- *Options for Pin*:
 
   -coverage_module module     -  module for which to record coverage
 
@@ -37,7 +37,7 @@
 
 # Change Log
 
-- To be continued.
+- *2016.6.28* fixed some bugs(crash,bitmap,etc.)
 
 
 # Notes
