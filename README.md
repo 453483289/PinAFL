@@ -25,10 +25,15 @@
 
 - *Options for Pin*:
 
-  -coverage_module module     -  module for which to record coverage
+  -coverage_module module_name     -  module for which to record coverage
 
-  -cpukill                    - cpukill or not 
+  -cpukill                         - cpukill or not 
 
+  -target_module module_name       - in memory mode. module for which fuzzing 
+
+  -start                          - in memory mode.  fuzzing target's start offset
+ 
+  -end                            - in memory mode. fuzzing target's end offset (*NOTE*, only support one exit)
 
 
 # Depends:
@@ -37,7 +42,8 @@
 
 # Change Log
 
-- *2016.6.28* fixed some bugs(crash,bitmap,etc.)
+- *2017.6.28* fixed some bugs(crash,bitmap,etc.)
+- *2017.7.7*  add in memory mode, but still not stable
 
 
 # Notes
