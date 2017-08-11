@@ -1,6 +1,6 @@
 # PinAFL - AFL Fuzzer with Pin running on Windows!
 
--  Thanks for the great work: [AFL](http://lcamtuf.coredump.cx/afl/), [WinAFL](https://github.com/ivanfratric/winafl). I am planting AFL fuzzer to Windows with Pin, Intel's instrumentation tool.Before you are starting using this tool, I strongly advised you to learn [AFL fuzzer](http://lcamtuf.coredump.cx/afl/) first.
+-  Thanks for the great works: [AFL](http://lcamtuf.coredump.cx/afl/), [WinAFL](https://github.com/ivanfratric/winafl). I am planting AFL fuzzer to Windows with Pin, Intel's instrumentation tool.Before you are starting using this tool, I strongly advised you to learn [AFL fuzzer](http://lcamtuf.coredump.cx/afl/) first. The source code is comming soon.
 
 # Version
 
@@ -43,7 +43,7 @@
 # Change Log
 
 - *2017.6.28* fixed some bugs(crash,bitmap,etc.)
-- *2017.7.7*  add in memory mode, but still not stable
+- *2017.7.7*  add in memory mode, but still not stable for the mult-threads targets.
 
 
 # Notes
